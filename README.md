@@ -1,3 +1,21 @@
+# Defillama Scraper
+```bash
+├── defi
+│   ├── data.json
+│   ├── defi
+│   │   ├── __init__.py
+│   │   ├── items.py
+│   │   ├── middlewares.py
+│   │   ├── pipelines.py
+│   │   ├── settings.py
+│   │   └── spiders
+│   │       ├── __init__.py
+│   │       ├── scraper.py
+│   │       └── test.json
+│   └── scrapy.cfg
+├── postgres_loader.py
+├── postgres_tables.txt
+```
 This scraper grabs DeFi protocol data from https://defillama.com/ and writes to an AWS Postgres DB.
 ![image](https://user-images.githubusercontent.com/62268115/159244693-828fae04-26c1-42d7-a371-fbf3da8b82ef.png)
 

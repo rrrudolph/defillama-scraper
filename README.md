@@ -3,6 +3,7 @@ This scraper grabs DeFi protocol data from https://defillama.com/ and writes to 
 
 
 It's probably a good sign when you are greeted with a price chart like that on the homepage as you know there's going to be a lot of json data behind it. After inspecting the Network tab in the dev tools I confirmed there was a backend call being made.  Playwright was used to intercept a session-specific URL from that AJAX call when the homepage is loaded. 
+
 ![image](https://user-images.githubusercontent.com/62268115/159244955-c8ee8bf3-c448-41f6-a41f-8c480ab4f8f1.png)
 
 To create the specific URLs needed for the protocol data, I had to scrape the protocol names from the table that's visible in the first photo.  Those are then used in combination with the intercepted URL to query data directly from the server.

@@ -20,7 +20,7 @@ This scraper grabs DeFi protocol data from https://defillama.com/ and writes to 
 ![image](https://user-images.githubusercontent.com/62268115/159244693-828fae04-26c1-42d7-a371-fbf3da8b82ef.png)
 
 
-It's probably a good sign when you are greeted with a price chart like that on the homepage as you know there's going to be a lot of json data behind it. After inspecting the Network tab in the dev tools I confirmed there was a backend call being made.  Playwright was used to intercept a session-specific URL from that AJAX call when the homepage is loaded. 
+It's probably a good sign whenever you're greeted with a price chart like that on the homepage as there should be json data that got loaded behind it. After inspecting the Network tab in the dev tools I confirmed there was a backend call being made.  Playwright was used to intercept a session-specific URL from that AJAX call when the homepage is loaded. 
 
 ![image](https://user-images.githubusercontent.com/62268115/159244955-c8ee8bf3-c448-41f6-a41f-8c480ab4f8f1.png)
 

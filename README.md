@@ -12,7 +12,7 @@ To create the specific URLs needed for the protocol data, I had to scrape the pr
 
 Doing data cleaning like that within a spider seems out of place, however I couldn't find a better place to do it in Scrapy's middlewares.  And since it's specifically for URL generation it's probably fine.
 
-The json data that get's returned is then parsed using Scrapy’s ItemLoader.  Admittedly, there wasn't a real need for ItemLoader in this case. But I hadn't used it before and wanted to check it out. It did help me learn more about the feature, even if didn't implement much of it.
+The json data that get's returned is then parsed using Scrapy’s ItemLoader.  Admittedly, there wasn't a real need for ItemLoader in this case. It's a nice feature though and I wanted to include it just to learn more about it - which I did.
 
 ![image](https://user-images.githubusercontent.com/62268115/159249723-129f40bf-eb03-4302-b046-0d2abd974447.png)
 
